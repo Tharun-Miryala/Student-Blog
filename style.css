@@ -1,0 +1,237 @@
+*{
+	padding: 0;
+	margin: 0;
+
+}
+.main{
+	background: url('back.jpg');
+}
+
+/* Add a black background color to the top navigation */
+.topnav 
+{
+  overflow: hidden;
+  background-color: black;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  border:solid -20px #08700c;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #08700c;
+  color: white;
+}
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 6px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+.header{
+	text-align: center;
+}
+
+#headline{
+	font-family: 'Abel';font-size: 84px;
+	color: #2f4239;
+}
+#subtitle{
+	font-family: 'Abel';font-size: 23px;
+	margin-top: 0px;
+	color: #48514d;
+  margin-bottom: 20px;
+}
+
+.menu-section{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: .5em;
+    grid-auto-rows: minmax( 100px, auto)
+    margin-top:20px;   
+    margin-left: 30px;
+    margin-right: 30px;
+      }
+.menu-section > div{
+  box-shadow: 0px 3px 15px #48514d;
+  margin-bottom: 10px;
+}
+.menu-section p{
+  font-family: 'Abel';
+  padding: 5px;
+  font-size: 25px;
+  padding-left: 10px;
+  background: #2f4239;
+  color: white;
+}
+.menu-section a{
+  text-decoration: none;
+}
+.menu-title{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: .5em;
+    grid-auto-rows: minmax( 100px, auto)
+    margin-top:20px;   
+    /*margin-left: 75px;
+    margin-right: 0px;*/
+    text-align: center;
+      }
+
+.menu-title p{
+  font-family: 'Abel';
+  font-size: 21px;
+  font-weight: bold;
+  color: #2f4239;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  
+}
+
+.row1 {
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 2em;
+    grid-auto-rows: minmax( 100px, auto)
+    margin-top:20px;   
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: left;
+    
+
+      }
+.row1 > div{
+  font-family: 'Abel';
+  padding: 15px;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+  margin: 10px;
+  box-shadow: 0px 4px 20px silver;
+}
+.row1 a{
+  text-decoration: none;
+}
+  input[type='text'],input[type='password'],select{
+      width: 150px;
+      height: 25px;
+      border: none;
+      border-bottom: 1px solid silver;
+      background: #f1f1f1;
+      margin-bottom: 10px;
+      margin-top: 15px;
+    }
+ textarea{
+      resize: none;
+      border: none;
+      background: #f1f1f1;
+      border-bottom: 1px solid silver;
+      outline: none;
+    }
+
+input[type='button']{
+      background: #2f4239;
+      color: white;
+      border: none;
+      width: 65px;
+      padding: 6px;
+      outline: none;
+      margin-left: 0px;
+      float: left;
+      
+    }
+input[type='button']:hover{
+      background: silver;
+      color: brown;
+    }
+
+
+.row2 {
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 2em;
+    grid-auto-rows: minmax( 100px, auto)
+    margin-top:20px;   
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: left;
+
+      }
+.row2 > div{
+  padding: 15px;
+  margin-bottom: 20px;
+  margin: 10px;
+  box-shadow: 0px 4px 20px silver;
+  font-family: 'Abel';
+  padding-bottom: 50px;
+}
+.row2 a{
+  text-decoration: none;
+}
+
+  #ulx{
+    list-style-type: none;
+    list-style-position: outside;
+  }
+  #ulx li{
+    font-size: 15px;
+    text-align: left;
+    margin-top: 5px;
+    border-bottom: solid 1px grey;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+  }
+    #ulx a{
+    text-decoration: none;
+    color: black;
+
+
+
+  }
+
+
+.next-pre-button{
+  padding: 20px;
+  margin-left: 280px;
+}
+input[type='submit']{
+      background: #2f4239;
+      color: white;
+      border: none;
+      width: 150px;
+      padding: 10px;
+      outline: none;
+      margin-left: 20px;
+      
+    }
+input[type='submit']:hover{
+      background: silver;
+      color: brown;
+    }
+.footer{
+  width: 100%;
+  height: 25px;
+  background: #2f4239;
+  color: white;
+  margin-top: 30px;
+  text-align: center;
+  padding-top: 10px;
+}
